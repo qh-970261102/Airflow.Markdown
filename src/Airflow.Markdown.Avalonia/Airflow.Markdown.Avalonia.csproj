@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Airflow.Markdown.Avalonia</RootNamespace>
+    <PackageId>Airflow.Markdown.Avalonia</PackageId>
+    <Description>Avalonia control for the Airflow.Markdown streaming Markdown renderer.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Airflow.Markdown.Abstractions\Airflow.Markdown.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

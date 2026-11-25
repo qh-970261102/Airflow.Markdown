@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Airflow.Markdown.Abstractions/Airflow.Markdown.Abstractions.csproj" />
+    <Project Path="src/Airflow.Markdown.Avalonia/Airflow.Markdown.Avalonia.csproj" />
+    <Project Path="src/Airflow.Markdown.Winui3/Airflow.Markdown.Winui3.csproj" />
+    <Project Path="src/Airflow.Markdown.Wpf/Airflow.Markdown.Wpf.csproj" />
+  </Folder>
+  <File Path="Directory.Build.props" />
+  <File Path="Directory.Packages.props" />
+  <File Path="README.md" />
+</Solution>

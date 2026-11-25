@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <UseWinUI>true</UseWinUI>
+    <!-- 允许在非 Windows 机器上 restore；完整编译仍需 Windows（MakePri 等工具为 Windows 可执行文件） -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>Airflow.Markdown.Winui3</RootNamespace>
+    <PackageId>Airflow.Markdown.Winui3</PackageId>
+    <Description>WinUI 3 control for the Airflow.Markdown streaming Markdown renderer.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Airflow.Markdown.Abstractions\Airflow.Markdown.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
